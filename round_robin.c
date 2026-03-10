@@ -16,7 +16,7 @@ struct Process {
 
 int main() {
     int n, time = 0, completed = 0, tq;
-    float avgWT = 0, avgTAT = 0;
+    float avgWT = 0, avgTAT=0;
     struct Process* head = NULL, *temp, *new_pr;
 
     printf(" Enter the total number of processes: ");
